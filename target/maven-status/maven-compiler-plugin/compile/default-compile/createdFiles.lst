@@ -1,8 +1,0 @@
-cl/javalin/api/controller/UsuarioController.class
-cl/javalin/api/controller/CursoController.class
-cl/javalin/api/App.class
-cl/javalin/api/model/UsuarioModel.class
-cl/javalin/api/service/ServicioCurso.class
-cl/javalin/api/configuration/HIbernateConfig.class
-cl/javalin/api/model/CursoModel.class
-cl/javalin/api/service/ServicioUsuarios.class

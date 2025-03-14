@@ -1,8 +1,0 @@
-/app/src/main/java/cl/javalin/api/App.java
-/app/src/main/java/cl/javalin/api/configuration/HIbernateConfig.java
-/app/src/main/java/cl/javalin/api/controller/CursoController.java
-/app/src/main/java/cl/javalin/api/controller/UsuarioController.java
-/app/src/main/java/cl/javalin/api/model/CursoModel.java
-/app/src/main/java/cl/javalin/api/model/UsuarioModel.java
-/app/src/main/java/cl/javalin/api/service/ServicioCurso.java
-/app/src/main/java/cl/javalin/api/service/ServicioUsuarios.java
