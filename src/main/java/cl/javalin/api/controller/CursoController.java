@@ -1,6 +1,5 @@
 package cl.javalin.api.controller;
 
-import java.util.Optional;
 
 import cl.javalin.api.model.CursoModel;
 import cl.javalin.api.service.ServicioCurso;

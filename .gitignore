@@ -1,0 +1,10 @@
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+.vscode
+
+/META-INF
+
+dependency*.xml
