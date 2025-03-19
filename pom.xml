@@ -31,8 +31,8 @@
   <dependencies>
     <dependency>
       <groupId>io.javalin</groupId>
-      <artifactId>javalin-bundle</artifactId>
-      <version>6.4.0</version>
+      <artifactId>javalin</artifactId>
+      <version>6.5.0</version>
     </dependency>
 
     <dependency>
@@ -69,7 +69,29 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-api</artifactId>
+      <version>0.12.6</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-impl</artifactId>
+      <version>0.12.6</version>
+      <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-jackson</artifactId>
+      <version>0.12.6</version>
+      <scope>runtime</scope>
+    </dependency>
+
   </dependencies>
+
 
   <build>
       <plugins>

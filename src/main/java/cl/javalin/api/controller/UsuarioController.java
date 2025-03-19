@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-import cl.javalin.api.jwt.JWTMiddleware;
 import cl.javalin.api.jwt.JWTUtil;
 import cl.javalin.api.model.UsuarioModel;
 import cl.javalin.api.service.ServicioUsuarios;

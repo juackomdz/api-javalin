@@ -8,6 +8,7 @@ import cl.javalin.api.model.UsuarioModel;
 
 public class ServicioUsuarios {
 
+
     List<UsuarioModel> usuarios = new ArrayList<>();
     Integer lastId = 1;
 
@@ -24,6 +25,7 @@ public class ServicioUsuarios {
         UsuarioModel usuario = new UsuarioModel();
         usuario.setUsername(user.getUsername());
         usuario.setEmail(user.getEmail());
+        usuario.setPassword(user.getPassword());
         usuario.setId(lastId++);
 
         usuarios.add(usuario);
@@ -61,5 +63,20 @@ public class ServicioUsuarios {
                 return true;
                 }
             return false;
+    }
+
+
+    public boolean login(UsuarioModel usuario){
+
+        Optional<UsuarioModel> opt = usuarios.stream().filter(u -> 
+            u.getUsername().equals(usuario.getUsername()) &&
+            u.getPassword().equals(usuario.getPassword())
+        ).findFirst();
+
+        if (opt.isPresent()) {
+            return true;
+        }
+
+        return false;
     }
 }
